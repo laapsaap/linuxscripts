@@ -1,2 +1,1 @@
-linuxscripts
-============
+Scripts for making life easier.
