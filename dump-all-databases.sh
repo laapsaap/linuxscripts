@@ -49,7 +49,7 @@ if [ ! -d "$OUTPUTDIR" ]; then
 fi
 
 # get a list of databases
-databases=`$MYSQL --user=$USER --password=$PASSWORD -e "SHOW DATABASES;" | grep -Ev "(Database|information_schema)"`
+databases=`$MYSQL --user=$USER --password=$PASSWORD -e "SHOW DATABASES;" | grep -Ev "(Database|information_schema|performance_schema)"`
 
 # dump each database in turn
 for db in $databases; do
