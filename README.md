@@ -1,1 +1,1 @@
-Scripts for making life easier.
+Scripts to make life easier.
